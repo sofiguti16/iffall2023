@@ -1,0 +1,25 @@
+
+body{
+
+     background-image: url("https://images.squarespace-cdn.com/content/v1/6272f44f80425f477933edfc/04d57a5a-ce2a-427d-bef1-2528bca379b7/YTG_HOME-A_Y8A2987-Edit.jpg");
+    font-family: "mixta-didone", serif;
+    font-weight: 400;
+    font-size: 22;
+    font-style: normal;
+    margin-left:100px;
+    
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size:46px;
+}
+h3{
+    font-size:25px;
+   
+}
+
+.adjust-line-height {
+    line-height: 1em;
+  }
