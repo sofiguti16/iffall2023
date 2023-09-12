@@ -1,0 +1,22 @@
+img {
+    
+    padding: 0px;
+    width: 400px; 
+    max-height: auto; 
+    position:relative; left:80px; top:2px;
+
+   }
+
+body {
+    font-size: 20px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: "english-small-caps", sans-serif;
+    background-color: black;
+    color: rgb(116, 255, 116);
+    position:relative; left:200px; top:2px;
+}
+h1{
+    font-size: 70px;
+}
