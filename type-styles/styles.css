@@ -1,0 +1,38 @@
+html {
+  background-color: #b91b2bf1;  
+  margin-left:50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+   }
+   h1{
+    font-family: 'Raleway', sans-serif;
+    color:#c2f268;
+    font-size: 60pt;
+    text-transform: capitalize;
+  }
+  p{
+    color: #f2f3ae;
+    line-height: 0.2em;
+  }
+  .adjust-line-height {
+    line-height: 1em;
+  }
+
+  h2{
+      color:#263d00;
+  }
+  h3{
+    color:#74ae16;
+    font-size: 20pt;
+  }
+.letter-spacing-3em{
+  letter-spacing: .3em;
+  line-height: 1em;
+}
+.letter-spacing--03em{
+  letter-spacing: -0.03em;
+  line-height: 1em;
+}
+.overline{
+  text-decoration: overline;
+}
