@@ -1,0 +1,155 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: rgb(235, 222, 206);
+}
+
+header{
+    background-image: url("img/plant2.jpeg");
+    background-position: 0px -712px ;
+    background-size:cover;
+    color:rgb(36, 18, 38);
+    text-align: center;
+}
+
+h1,h2,h3,p{
+    margin:0;
+}
+
+h1{
+    font-size: 80px;;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 1.11;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 33px;
+}
+
+.column_container{
+    width:960px;
+    margin:auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header .column_container{
+    padding-top: 152px;
+    padding-bottom: 188px;
+
+}
+
+section.closing_summary{
+    background-color: rgba(0, 35, 0, 0.3);
+}
+
+p{
+    font-size: 18px;
+    line-height: 25.2px;
+    padding-bottom: 17px;
+}
+
+.intro{
+    background-color: rgb(43, 56, 20);
+}
+
+.img-400-300{
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    background-position:top;
+    object-fit: cover;
+}
+
+.gallery{
+    background-color:rgb(36, 18, 38);
+    margin: auto;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 1px;   
+}
+
+.flex-grid{
+    max-width: 955px;
+    margin: auto;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    margin-top: -2px;
+    border: none;
+    gap: 6px;
+    margin-bottom: 3px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.box img{
+    height: 150px;
+    width: 200px;
+    margin-left: -2px;
+    padding-right: 12px;
+}
+
+.box section{    
+    height: 170px;
+    border: none;
+}
+
+.box p {
+    width: 230px;
+}
+
+h4{
+    padding-top: 1px;
+    margin: 0;
+    padding-bottom: 7px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    border: none;
+    gap: 4px;
+}
+
+
+.closing-summary p{
+    color:rgb(36, 18, 38);
+    width: 703px;
+    margin: auto;
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.4;
+    padding-bottom: 60px;
+}
+
+.closing-summary h3{
+    color:rgb(36, 18, 38);
+    width: 703px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+    line-height: 1.4;
+}
+
+.closing-summary{
+    background-color: rgb(235, 222, 206);
+}
+
+footer{
+    background-color: rgb(43, 56, 20);
+}
