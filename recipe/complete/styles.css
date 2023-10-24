@@ -1,0 +1,153 @@
+html{
+    background-color: rgb(255, 235, 205);
+    font-family: "magallanes", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(52, 21, 21);
+
+}
+
+.column_container{
+    margin:auto;
+}
+
+h1{
+    font-size: 75px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: -25px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+body{
+    margin-left: auto; margin-right: auto;
+    width: 90%;
+    max-width: 800px;
+    display: block;
+}
+
+.img-400-300{
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    background-position:top;
+    object-fit: cover;
+}
+
+h4{
+    margin-bottom: -15px;
+    font-size: 20px;
+}
+.time ul{
+    display: flex; 
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.time li {
+    text-align: center;
+    background-color: rgb(78, 47, 21);
+    width: 200px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.time h4,h5{
+    color: blanchedalmond;
+}
+
+.ingredients li{
+margin-bottom: 1.2rem;
+width: 47%;
+}
+
+.ingredients{
+    margin-bottom: 60px;
+}
+
+ol div{
+/* margin-bottom: 300px; */
+margin-left: -30px;
+}
+
+.instructions{
+    max-width: 955px;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    margin-top: -2px;
+    border: none;
+    gap: 6px;
+    margin-bottom: 3px;
+}
+
+.box{
+
+    flex-direction: row;
+    border: none;
+}
+
+.time h6 {
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(78, 47, 21);
+    width: 350px;
+    list-style-type: none;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: blanchedalmond;
+}
+
+
+
+@media (max-width: 700px) {
+    h1{
+        font-size: 3.5rem
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    p,li{
+        font-size: 0.7rem;
+    }
+    #inst{
+        width: 400px;
+        margin-bottom: 0;
+        padding: 0;
+        gap: 0;
+       
+    } 
+    #ingr li{
+        width: 80%;
+        margin: 0;
+    }
+    #left-img{
+        float: left;
+    }
+    h4{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    .box{
+        flex-direction: none;
+    }
+ 
+}
