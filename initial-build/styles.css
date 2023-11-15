@@ -1,0 +1,262 @@
+body{
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+/* -------------------NAVIGATION------------------- */
+
+.navbar {
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    padding: 16px 32px;
+    background-color: #000000;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: rgb(255, 255, 255);
+
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar a:hover {
+    background-color: #000000;
+    color: rgb(194, 134, 14);
+}
+
+/* html {
+    scroll-behavior: smooth;
+}
+   
+#about {
+    margin-top: 100%;
+    padding-bottom: 25%;
+} 
+
+#eras {
+    margin-top: 200%;
+    padding-bottom: 50%;
+}  */
+/* ---------------------------------------------- */
+
+
+header{
+    background-image: url("img/introT.jpg");
+    background-position: 0px -400px ;
+    background-size:cover;
+    height: 1000px;
+
+}
+
+h1,h2,h3,p{
+    margin:0;
+}
+
+h1{
+    font-size: 50px;;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 1.11;
+}
+
+h3{
+    text-align: left;
+    font-size: 80px;
+    padding-bottom: 22px;
+
+}
+
+.column_container{
+    width:960px;
+    margin:auto;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+
+header .column_container{
+    padding-top: 20px;
+    padding-bottom: 188px;
+
+}
+
+section.closing_summary{
+    background-color: rgba(0, 35, 0, 0.3);
+}
+
+p{
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 17px;
+}
+
+.img-400-400{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    background-position:top;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+
+
+img{
+    height: 800px;
+    background-position: 0px -712px ;
+    background-size:cover;
+}
+
+.about{
+    background-color: #000000;
+    /* color: #1A1B1C; */
+}
+
+.about h3{
+    font-size: 50px;
+    /* color: #1A1B1C; */
+}
+
+.img-h2{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    background-position:top;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+
+.footer{
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* --------------------ALBUMS-------------------- */
+
+.taylorSwiftAlbum{
+    background-image: url("img/greenback.png");
+    background-color: #C1D8BF;
+    /* color: #1A1B1C; */
+}
+
+.fearlessAlbum{
+    background-image: url("img/yellowbackk.png");
+    background-color: #F5C585;
+    /* color: #1A1B1C; */
+}
+
+.fearlessAlbum h3{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+}
+
+.speakNowAlbum{
+    background-image: url("img/purpleback.png");
+    background-color: #D0B5D4;
+    /* color: #1A1B1C; */
+}
+
+.speakNowAlbum h3{
+    font-family: "sudestada", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.redAlbum{
+    background-image: url("img/redbackground.jpg");
+    background-color: #7E303E;
+
+}
+
+.redAlbum h3{
+    font-family: "revolution-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.blueAlbum{
+    background-image: url("img/bblueback.png");
+    background-color: #BFE9F9;
+    /* color: #1A1B1C; */
+}
+
+.blueAlbum h3{
+    font-family: "permanent-marker", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.reputationAlbum{
+    background-image: url("img/blackback.jpg");
+    background-color: #7C7377;
+}
+
+.reputationAlbum h3{
+    font-family: "amador", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.loverAlbum{
+    background-image: url("img/pinkback.png");
+    background-color: #F7B9D2;
+    /* color: #1A1B1C; */
+}
+
+.loverAlbum h3{
+    font-family: "satisfy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.folkloreAlbum{
+    background-image: url("img/greyback.png");
+    background-color: #C5C1BC;
+    /* color: #1A1B1C; */
+}
+
+.folkloreAlbum h3{
+    font-family: "de-walpergens-pica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.evermoreAlbum{
+    background-image: url("img/brownback.png");
+    background-color: #B9A58E;
+    /* color: #1A1B1C; */
+}
+
+.evermoreAlbum h3{
+    font-family: "de-walpergens-pica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.midnightsAlbum{
+    background-image: url("img/dblueback.png");
+    background-color: #2F3346;
+}
+
+.midnightsAlbum h3{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
