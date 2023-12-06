@@ -1,0 +1,382 @@
+body{
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    margin: 0;
+
+}
+
+/* -------------------NAVIGATION------------------- */
+
+.navbar {
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    /* display: flex;
+    flex-direction: row;
+    column-gap: 24px; */
+    padding: 16px 32px;
+    background-color: #1e1e1e;
+}
+.selected-title{
+    color:rgb(131, 192, 233);
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar a:hover {
+    /* background-color: #1a0b03; */
+    color: rgb(131, 192, 233);
+}
+
+.navbar .Title{
+    padding: 0;
+    float: left;
+}
+
+
+/* ---------------------------------------------- */
+
+
+.headerEras{
+    background-image: url("img/eras5.png");
+    background-position: 0rem 57rem ;
+    background-size:contain;
+    height: 53rem;
+} 
+
+img{
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+    object-position: bottom;   
+    padding: 0;
+    display: block;
+}
+
+.headerEras img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;   
+    padding: 0;
+    display: block;
+}
+
+.header img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;   
+    padding: 0;
+    display: block;
+}
+
+h1,h2,h3,p{
+    margin:0;
+}
+
+h1{
+    font-size: 50px;;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 1.11;
+}
+
+h3{
+    text-align: left;
+    font-size: 90px;
+    padding-bottom: 25px;
+
+}
+
+.column_container{
+    width: 700px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.eras p{
+    width: 700px;
+    margin: auto;
+
+}
+
+header .column_container{
+    padding-top: 20px;
+    padding-bottom: 188px;
+
+}
+.eras h3{
+    text-align: center;
+}
+
+section.closing_summary{
+    background-color: rgba(0, 35, 0, 0.3);
+}
+
+p{
+    font-size: 1.06rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.06rem;
+}
+
+
+.img-400-400{
+    width: 18.75rem;
+    height: 18.75rem;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    background-position:top;
+    object-fit: cover;
+    padding-bottom: -10px;
+}
+
+
+.about{
+    background-image: url("img/dblueback.png");
+    background-color: #232c7e;
+    /* color: #1A1B1C; */
+}
+
+.about h3{
+    font-size: 50px;
+    /* color: #1A1B1C; */
+}
+
+.img-h2{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    background-position:top;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+
+
+
+.footer{
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* --------------------ALBUMS-------------------- */
+
+.taylorSwiftAlbum{
+    background-image: url("img/greenback.png");
+    background-color: #C1D8BF;
+    /* color: #1A1B1C; */
+    
+}
+
+.taylorSwiftAlbum h3{
+    font-family: "sudestada", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 30px;
+}
+
+.fearlessAlbum{
+    background-image: url("img/yellowbackk.png");
+    background-color: #F5C585;
+    /* color: #1A1B1C; */
+}
+
+.fearlessAlbum h3{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+}
+
+.speakNowAlbum{
+    background-image: url("img/purpleback.png");
+    background-color: #D0B5D4;
+    /* color: #1A1B1C; */
+}
+
+.speakNowAlbum h3{
+    font-family: "sudestada", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.redAlbum{
+    background-image: url("img/redbackground.jpg");
+    background-color: #7E303E;
+
+}
+
+.redAlbum h3{
+    font-family: "revolution-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.blueAlbum{
+    background-image: url("img/bblueback.png");
+    background-color: #BFE9F9;
+    /* color: #1A1B1C; */
+}
+
+.blueAlbum h3{
+    font-family: "permanent-marker", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.reputationAlbum{
+    background-image: url("img/blackback.jpg");
+    background-color: #7C7377;
+}
+
+.reputationAlbum h3{
+    font-family: "amador", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.loverAlbum{
+    background-image: url("img/pinkback.png");
+    background-color: #F7B9D2;
+    /* color: #1A1B1C; */
+}
+
+.loverAlbum h3{
+    font-family: "satisfy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.folkloreAlbum{
+    background-image: url("img/greyback.png");
+    background-color: #C5C1BC;
+    /* color: #1A1B1C; */
+}
+
+.folkloreAlbum h3{
+    font-family: "de-walpergens-pica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.evermoreAlbum{
+    background-image: url("img/brownback.png");
+    background-color: #B9A58E;
+    /* color: #1A1B1C; */
+    /* padding-bottom: 3rem; */
+}
+
+.evermoreAlbum h3{
+    font-family: "de-walpergens-pica", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.midnightsAlbum{
+    background-image: url("img/dblueback.png");
+    background-color: #2F3346;
+    padding-bottom: 1rem;
+}
+
+.midnightsAlbum h3{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* --------------------RESPONSIVE-------------------- */
+
+@media  (max-width: 900px) {
+    /* For tablets: */
+    h1{
+        font-size: 40px;;
+    }
+
+    .navbar a{
+        font-size: 1.5rem;
+    }
+    
+    h2{
+        font-size: 12px;
+        line-height: 1.11;
+    }
+    
+    h3{
+        text-align: left;
+        font-size: 4rem;
+        padding-bottom: 18px;
+    }
+    
+    .column_container{
+        width: 500px;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    
+    header .column_container{
+        padding-top: 20px;
+        padding-bottom: 188px;
+    
+    }
+    
+    header{
+        background-image: url("img/introTS.jpg");
+        background-position: 0rem 0rem ;
+        background-size:contain;
+        height: 45rem;
+    }
+
+    .headerEras{
+        background-image: url("img/eras5.png");
+        background-position: 0rem 57rem ;
+        background-size:contain;
+        height: 40rem;
+    } 
+
+    .img-400-400{
+        float:left;
+        margin-left: 6rem;
+        margin-right: 6rem;
+        margin-bottom: 30px;
+        background-position:top;
+        object-fit: cover;
+        padding-bottom: 0;   
+    }
+
+
+
+    .eras p{
+        width: 400px;
+        margin: auto;
+    }
+
+    img{
+        width: 100%;
+        height: 1000px;
+        object-fit: cover;
+        object-position: bottom;   
+        padding: 0;
+        display: block;
+    }
+    header .column_container{
+        padding-top: 20px;
+        padding-bottom: 188px;
+    
+    }
+  }
+
+
